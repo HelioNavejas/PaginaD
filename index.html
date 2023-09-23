@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registro de usuario</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+	<body>
+		<div class="form">
+			<form action="guardar.php" method="POST">
+				<div id="columna1">
+					<p>Nombre</p>
+					<label for="nombre">Ingrese un nombre</label>
+					<br>
+					<input type="text" name="nombre" placeholder="Nombre" required>
+					<p>Apellido</p>
+					<label for="apellido">Ingrese un apellido</label>
+					<br>
+					<input type="text" name="apellido" placeholder="Apellido" required>
+					<br>
+					<br>
+					<input type="submit" value="Enviar">
+					<br>
+					<br>
+				</div>
+				<div id="columna2">
+					<p>Username</p>
+					<label for="username">Ingrese un username</label>
+					<br>
+					<input type="text" name="username" placeholder="Username" required>
+					<p>Correo</p>
+					<label for="correo">Direccion De Correo</label>
+					<br>
+					<input type="email" name="correo" placeholder="Ejemplo@correo.com" required>
+					<br>
+					<br>
+					<a href=mostrarDatos.php target=”_blank”><input type="button" value="Consultar"></a>
+					<br>
+					<br>
+				</div>
+				
+			</form>
+		</div>
+	</body>
+</html>
